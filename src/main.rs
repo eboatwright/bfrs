@@ -5,7 +5,7 @@ const LENGTH_OF_MEMORY: usize = 30000;
 
 fn main() {
 	let args = std::env::args().collect::<Vec<String>>();
-	let use_custom_instructions = args.contains(&String::from("--debug"));
+	let use_custom_instructions = args.contains(&String::from("--ci"));
 
 	let mut source_file =
 		File::options()
