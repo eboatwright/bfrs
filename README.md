@@ -5,11 +5,11 @@
  [The Official Brainf\*ck Website](https://brainfuck.org/)
 
 ## Usage
- After cloning the repository, you can run this command:
- ```
- ./bfrs examples/hello_world.bf
- ```
- To run the example Hello World program.<br><br><br>
+ To run a .bf file, use this command:
+ ``
+ ./bfrs your_file_here.bf
+ ``
+ <br>
  BF.rs also has 2 custom instructions useful for debugging:
  ```
  : Prints out the raw value at the current memory index
