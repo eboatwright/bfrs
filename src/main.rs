@@ -5,6 +5,18 @@ const LENGTH_OF_MEMORY: usize = 30000;
 
 fn main() {
 	let args = std::env::args().collect::<Vec<String>>();
+
+	if args.len() < 2 {
+		println!("Please give a source file: ./bfrs your_file_here.bf");
+		return;
+	}
+
+	if args.contains(&String::from("--v"))
+	|| args.contains(&String::from("--version")) {
+		println!("BF.rs - v1.0.0");
+		return;
+	}
+
 	let use_custom_instructions = args.contains(&String::from("--ci"));
 
 	let mut source_file =
