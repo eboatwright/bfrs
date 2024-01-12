@@ -5,12 +5,15 @@
  [The Official Brainf\*ck Website](https://brainfuck.org/)
 
 ## Usage
- To run a .bf file, use this command:
- ``
+ Print out the current version:
+ ```
+ ./bfrs --version
+ ```
+ <br>Run a file:
+ ```
  ./bfrs your_file_here.bf
- ``
- <br>
- BF.rs also has 2 custom instructions useful for debugging:
+ ```
+ <br>BF.rs also has 2 custom instructions useful for debugging:
  ```
  : Prints out the raw value at the current memory index
  # Prints out all memory to the terminal
