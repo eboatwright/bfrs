@@ -5,5 +5,5 @@
  [The Official Brainf\*ck Website](https://brainfuck.org/)
 
 # Helpful Sources
- [Brainf\*ck Wiki Page](https://en.wikipedia.org/wiki/Brainfuck)
+ [Brainf\*ck Wiki Page](https://en.wikipedia.org/wiki/Brainfuck) | 
  [Basics of Brainf\*ck](https://gist.github.com/roachhd/dce54bec8ba55fb17d3a)
